@@ -75,3 +75,4 @@ Kubernetes Worker
 - Assume it to be like a team member 
 - 2 components to be installed [ kubeproxy, kubelet]
 - container will be deployed and run on the worker 
+- a worker has to connect to the master
