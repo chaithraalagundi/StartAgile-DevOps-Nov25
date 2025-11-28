@@ -221,6 +221,18 @@ spec:
     - name: c3
       image: ubuntu
 
+Agenda: 28 Nov 2025
+
+-> ReplicaSet
+     - replicas 
+     - ensures desired count of replias = current count
+     - scale up and scale down
+-> Deployment
+    -> ReplicaSet
+     - replicas 
+     - ensures desired count of replias = current count
+     - scale up and scale down
+    -> Changing Image on the Deployment
 
 
 
